@@ -249,7 +249,6 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -262,10 +261,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
     }
 }
 
@@ -666,6 +661,14 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+.location-panorama {
+    background-image: url(../img/panoramic.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 448px;
+    height: 448px;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -884,4 +887,8 @@ body {
 
 a.text-white:hover {
   color: #ccc;
+}
+
+.inter-maps{
+    margin: 100px 0;
 }
