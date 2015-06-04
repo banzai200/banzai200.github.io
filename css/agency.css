@@ -21,6 +21,10 @@ body {
     color: #fc8e88;
 }
 
+a:hover .text-secundary {
+    color: #dc6e68;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -868,4 +872,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #85d4c8;
+}
+
+.nowrap{
+    white-space: nowrap !important;
+}
+
+.text-white{
+    color: #fff;
+}
+
+a.text-white:hover {
+  color: #ccc;
 }
