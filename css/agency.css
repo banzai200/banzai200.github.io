@@ -896,3 +896,35 @@ a.text-white:hover {
 .spaced-list li{
     margin-bottom: 30px;
 }
+
+ul.star-list{
+    list-style-type: none;
+}
+
+ul.star-list > li:before{
+    content: "\066D \0020";
+    font-family: "Courier New";
+}
+
+ul.star-list.star-list-secundary-color > li:before{
+    color:#fc8e88;
+}
+
+.roman-list{
+    list-style-type: upper-roman;
+}
+
+.chalkboard-bg{
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.ident{
+    margin-left: 100px;
+}
