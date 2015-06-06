@@ -892,3 +892,7 @@ a.text-white:hover {
 .inter-maps{
     margin: 100px 0;
 }
+
+.spaced-list li{
+    margin-bottom: 30px;
+}
