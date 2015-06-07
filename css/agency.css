@@ -267,6 +267,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    background-color: #333;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
@@ -915,6 +916,7 @@ ul.star-list.star-list-secundary-color > li:before{
 }
 
 .chalkboard-bg{
+    background-color: #333;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
