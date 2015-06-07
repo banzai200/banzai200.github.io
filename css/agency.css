@@ -69,7 +69,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f0f0f0;
 }
 
 .bg-darkest-gray {
@@ -259,9 +259,18 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 5px 0;
         background-color: #222;
     }
+    .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+}
+
+.navbar-brand {
+  padding: 10px;
+  height: 30px;
 }
 
 header {
