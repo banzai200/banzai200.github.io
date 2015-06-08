@@ -263,14 +263,18 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
     .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 }
 
 .navbar-brand {
-  padding: 10px;
-  height: 30px;
+  padding: 5px;
+  height: 20px;
+}
+
+.navbar {
+  min-height: 20px;
 }
 
 header {
