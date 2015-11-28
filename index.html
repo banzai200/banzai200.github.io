@@ -110,12 +110,18 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in text-secundary font-chalk-2">
+                <div class="intro-lead-in text-secundary font-chalk-2" ng-if="remaining_days>0">
                     OMG! Faltam só
                     <span id="remaining_days" class="fa-lg ng-cloak text-primary">
                         {{remaining_days}}
                     </span>
                     dias!
+                </div>
+                <div class="intro-lead-in text-secundary font-chalk-2" ng-if="remaining_days==0">
+                  É hoje!
+                </div>
+                <div class="intro-lead-in text-secundary font-chalk-2" ng-if="remaining_days<0">
+                  Já foi!
                 </div>
                 <div class="intro-heading font-chalk-1">06/12/2015</div>
             </div>
